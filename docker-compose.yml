@@ -7,7 +7,7 @@ services:
     ports:
       - "2181:2181"
     environment:
-        ZK_MY_ID: 1
+        ZK_ID: 1
         ZK_PORT: 2181
         ZK_SERVERS: server.1=zk1:2888:3888 server.2=zk2:2888:3888 server.3=zk3:2888:3888
     volumes:
@@ -20,7 +20,7 @@ services:
     ports:
       - "2182:2182"
     environment:
-        ZK_MY_ID: 2
+        ZK_ID: 2
         ZK_PORT: 2182
         ZK_SERVERS: server.1=zk1:2888:3888 server.2=zk2:2888:3888 server.3=zk3:2888:3888
     volumes:
@@ -33,7 +33,7 @@ services:
     ports:
       - "2183:2183"
     environment:
-        ZK_MY_ID: 3
+        ZK_ID: 3
         ZK_PORT: 2183
         ZK_SERVERS: server.1=zk1:2888:3888 server.2=zk2:2888:3888 server.3=zk3:2888:3888
     volumes:
