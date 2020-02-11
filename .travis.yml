@@ -22,6 +22,7 @@ install:
   - docker pull zookeeper:3.5.6
 
 script:
+  - chmod +x ./kafka-test.sh
   - ./kafka-test.sh docker-compose.yml 6
 
 after_script:
