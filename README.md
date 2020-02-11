@@ -1,7 +1,5 @@
-# docker-kafka-zk
+## docker-kafka-zk
 docker compose for 3 node kafka and 3 node zk
-
-## Multiple Zookeeper / Multiple Kafka
 
 - Zookeeper will be available at `$DOCKER_HOST_IP:2181,$DOCKER_HOST_IP:2182,$DOCKER_HOST_IP:2183`
 - Kafka will be available at `$DOCKER_HOST_IP:9092,$DOCKER_HOST_IP:9093,$DOCKER_HOST_IP:9094`
